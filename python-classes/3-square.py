@@ -27,7 +27,7 @@ class Square:
         Property setter to set private instance attribute
         Raises typeerror if not int and valuerror if less than 0
         """
-        if not isinstance(size, int):
+        if not isinstance(value, int):
             raise TypeError("size must be an integer")
         if size < 0:
             raise ValueError("size must be >= 0")
